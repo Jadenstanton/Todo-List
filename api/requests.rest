@@ -1,0 +1,27 @@
+GET http://localhost:3000/todos
+
+###
+
+POST http://localhost:3000/todo/new 
+Content-Type: application/json
+
+{
+    "text": "Take quiz"
+}
+
+###
+ 
+DELETE http://localhost:3000/todo/delete/632f6b0ed999e48ddff60edd
+
+###
+
+GET http://localhost:3000/todo/complete/
+
+###
+
+PUT http://localhost:3000/todo/update/632f7bc50b5b7aba141d61cd
+Content-Type: application/json
+
+{
+    "text": "Take quiz"
+}
